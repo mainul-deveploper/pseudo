@@ -19,12 +19,43 @@
             outline: 0;
             border: 1px dotted blue;
         }
+        input:focus{
+            color: rgb(71, 86, 255);
+            background-color: brown;
+            border: 1px solid red;
+            border-radius: 8px 10px;
+        }
+        a:visited{
+            color: rgb(223, 0, 26);
+        }
+        li:last-child{
+            color: red;
+        }
+        li:first-child{
+            color: greenyellow;
+        }
+        li:nth-child(2n){
+            color: purple;
+        }
+        li:nth-child(2n+1){
+            background-color: blueviolet;
+        }
     </style>
 </head>
 <body>
     <h2>My Heading</h2>
     <input type="text">
     <input type="text">
-    <input type="text">
+    <input type="text"> <br>
+
+    <a href="https://www.facebook.com/">go</a>
+    <a href="https://www.facebook.com/">fb</a>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
 </body>
 </html>
